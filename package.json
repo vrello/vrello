@@ -1,11 +1,11 @@
 {
   "name": "vrellodb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🗃 vrello is a simple database solution, made for node and electron applications",
   "main": "lib/src",
   "scripts": {
     "test": "rimraf lib && tsc && ts-node -T test",
-    "build": "tsc",
+    "build": "rimraf lib && tsc",
     "prepublishOnly": "npm run build"
   },
   "repository": {
