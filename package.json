@@ -1,0 +1,23 @@
+{
+  "name": "vrello",
+  "version": "0.0.1",
+  "description": "🧩 Vrello is a tiny database built for Node and Electron, built by @dothq",
+  "main": "lib/src",
+  "scripts": {
+    "test": "rimraf lib && tsc && ts-node -T test",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vrello/vrello"
+  },
+  "author": "Dot HQ <contact@dothq.co>",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "3.6.5"
+  },
+  "dependencies": {}
+}
