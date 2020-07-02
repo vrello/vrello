@@ -1,7 +1,7 @@
 {
-  "name": "vrello",
-  "version": "0.0.1",
-  "description": "🧩 Vrello is a tiny database built for Node and Electron, built by @dothq",
+  "name": "vrellodb",
+  "version": "1.0.0",
+  "description": "🗃 vrello is a simple database solution, made for node and electron applications",
   "main": "lib/src",
   "scripts": {
     "test": "rimraf lib && tsc && ts-node -T test",
