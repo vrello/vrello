@@ -26,7 +26,7 @@ db.default('monkey', {
 
 ...
 
-// You can append data to an existing array in your database */
+// You can append data to an existing array in your database
 db.append('monkey.bananas', {
   ripeness: 98,
   wasTasty: true
